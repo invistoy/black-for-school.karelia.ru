@@ -1,0 +1,22 @@
+body {
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#lightTheme {
+    background-color: white;
+    color: black;
+}
+
+#darkTheme {
+    background-color: black;
+    color: white;
+}

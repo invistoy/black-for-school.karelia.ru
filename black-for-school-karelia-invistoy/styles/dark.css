@@ -1,0 +1,111 @@
+:root {
+    --bg-color: #121212 !important;
+    --text-color: #ffffff !important;
+}
+
+body, html {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+/* Фон всем div, section, main */
+div, section, main {
+    background-color: var(--bg-color) !important;
+}
+
+/* Стили для кнопок */
+button, input, textarea {
+    background-color: #333333 !important;
+    color: white !important;
+}
+
+/* Стили ссылок */
+a {
+    color: #bb86fc !important;
+}
+.content > ul > li table {
+    background: #000000;
+}
+.content > ul > li table th {
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-right: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background: #000000;
+}
+.content > ul > li table tr th:first-child {
+    border-left: 1px solid #ffffff;
+}
+.content > ul > li {
+    border-top: 2px solid #000000;
+    border-bottom: 0;
+}
+.header > div {
+    margin-left: 240px;
+    padding: 6px 16px 4px 12px;
+    border-top: 1px solid #000000;
+    border-bottom: 3px solid #000000;
+    background: #000000;
+    background: #000000;
+    background: url(dat5a:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZDk3ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWM4NzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #000000 0%, #000000 100%);
+    background: linear-gradient(to bottom, #000000 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fed97d', endColorstr='#eac873',GradientType=0 );
+}
+.header > div {
+    height: 39px;
+    margin-left: 239px;
+    padding: 6px 10px 5px 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.74);
+    border-bottom: 3px solid #000000;
+    background: #000000;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg4YzY1MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI3NGEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #000000 0%, #000000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.74) 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88c650', endColorstr='#7db74a',GradientType=0 );
+}
+.content > ul li table.not tr td {
+    font-size: 1em !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    background: #000000;
+}
+ul.menu li a {
+    line-height: 39px;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 2px 5px 4px 53px;
+    text-decoration: none;
+    color: #000000;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background: #000000;
+}
+ul.menu li a:active, ul.menu li a.active {
+    width: 176px;
+    padding: 0 5px 5px 52px;
+    color: #000000;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: none;
+    border-left: 1px solid #000000;
+    background: #000000;
+}
+ul.menu li {
+    border-left-color: #000000 !important;
+}
+.content > ul > li > div + table {
+    border-top: 2px solid #ffffff;
+}
+.content > ul > li > div {
+    padding: 3px 10px 5px 15px;
+    /* border-top: 1px solid #ffffff; */
+    border-right: 1px solid #ffffff;
+    border-bottom: 0;
+    border-left: 1px solid #ddd5b6;
+    background: #ffefc6;
+}

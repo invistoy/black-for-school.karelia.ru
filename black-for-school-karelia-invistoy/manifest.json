@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Тема сайта",
+  "version": "0.1.2",
+  "description": "Изменяет тему на сайте school.karelia.ru",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["*://school.karelia.ru/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://school.karelia.ru/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["styles/dark.css"],
+      "matches": ["*://school.karelia.ru/*"]
+    }
+  ]
+}
